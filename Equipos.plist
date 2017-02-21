@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>NombreEquipo</key>
+		<string>Atlético de Madrid</string>
+		<key>Escudo</key>
+		<string>AthleticoMadrid.png</string>
+	</dict>
+	<dict>
+		<key>NombreEquipo</key>
+		<string>Athletic Club de Bilbao</string>
+		<key>Escudo</key>
+		<string>AthleticClubBilbao.png</string>
+	</dict>
+	<dict>
+		<key>NombreEquipo</key>
+		<string>Real Betis Balompié</string>
+		<key>Escudo</key>
+		<string>Betis.png</string>
+	</dict>
+	<dict>
+		<key>NombreEquipo</key>
+		<string>C.D.Espanyol</string>
+		<key>Escudo</key>
+		<string>Espanyol.png</string>
+	</dict>
+	<dict>
+		<key>NombreEquipo</key>
+		<string>F.C.Barcelona</string>
+		<key>Escudo</key>
+		<string>FCBarcelona.png</string>
+	</dict>
+	<dict>
+		<key>NombreEquipo</key>
+		<string>Getafe</string>
+		<key>Escudo</key>
+		<string>Getafe.png</string>
+	</dict>
+	<dict>
+		<key>NombreEquipo</key>
+		<string>Granada</string>
+		<key>Escudo</key>
+		<string>Granada.png</string>
+	</dict>
+	<dict>
+		<key>NombreEquipo</key>
+		<string>Levante</string>
+		<key>Escudo</key>
+		<string>Levante.png</string>
+	</dict>
+	<dict>
+		<key>NombreEquipo</key>
+		<string>Malaga</string>
+		<key>Escudo</key>
+		<string>Malaga.png</string>
+	</dict>
+	<dict>
+		<key>NombreEquipo</key>
+		<string>Mallorca</string>
+		<key>Escudo</key>
+		<string>Mallorca.png</string>
+	</dict>
+	<dict>
+		<key>NombreEquipo</key>
+		<string>Osasuna</string>
+		<key>Escudo</key>
+		<string>Osasuna.png</string>
+	</dict>
+	<dict>
+		<key>NombreEquipo</key>
+		<string>Racing de Santander</string>
+		<key>Escudo</key>
+		<string>Racing.png</string>
+	</dict>
+	<dict>
+		<key>NombreEquipo</key>
+		<string>Rayo Vallecano</string>
+		<key>Escudo</key>
+		<string>RayoVallecano.png</string>
+	</dict>
+	<dict>
+		<key>NombreEquipo</key>
+		<string>Real Madrid C.F.</string>
+		<key>Escudo</key>
+		<string>RealMadrid.png</string>
+	</dict>
+	<dict>
+		<key>NombreEquipo</key>
+		<string>Real Sociedad</string>
+		<key>Escudo</key>
+		<string>RealSociedad.png</string>
+	</dict>
+	<dict>
+		<key>NombreEquipo</key>
+		<string>Real Zaragoza</string>
+		<key>Escudo</key>
+		<string>RealZaragoza.png</string>
+	</dict>
+	<dict>
+		<key>NombreEquipo</key>
+		<string>Sevilla</string>
+		<key>Escudo</key>
+		<string>Sevilla.png</string>
+	</dict>
+	<dict>
+		<key>NombreEquipo</key>
+		<string>Sporting de Gijón</string>
+		<key>Escudo</key>
+		<string>Sporting.png</string>
+	</dict>
+	<dict>
+		<key>NombreEquipo</key>
+		<string>Valencia</string>
+		<key>Escudo</key>
+		<string>Valencia.png</string>
+	</dict>
+	<dict>
+		<key>NombreEquipo</key>
+		<string>Villareal</string>
+		<key>Escudo</key>
+		<string>Villareal.png</string>
+	</dict>
+</array>
+</plist>

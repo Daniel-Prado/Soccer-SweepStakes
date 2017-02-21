@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* PorrasAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* PorrasAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28193060112F816700ECF9B4 /* Porras.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2819305F112F816700ECF9B4 /* Porras.xcdatamodeld */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
+		6502DB2B14B51B6400F414D3 /* ParticipanteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6502DB2914B51B6400F414D3 /* ParticipanteViewController.m */; };
+		6502DB2C14B51B6400F414D3 /* ParticipanteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6502DB2A14B51B6400F414D3 /* ParticipanteViewController.xib */; };
+		650F9A3314B375A800630C94 /* SimpleFormTeamsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 650F9A3214B375A800630C94 /* SimpleFormTeamsViewController.xib */; };
+		65765F2A14B68584003D3CB2 /* 85-trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = 65765F2914B68584003D3CB2 /* 85-trophy.png */; };
+		65765F2D14B68618003D3CB2 /* 96-book.png in Resources */ = {isa = PBXBuildFile; fileRef = 65765F2C14B68618003D3CB2 /* 96-book.png */; };
+		65765F3514B68B23003D3CB2 /* ResultadoPartidoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65765F3414B68B23003D3CB2 /* ResultadoPartidoViewController.xib */; };
+		65765F4A14B68B9F003D3CB2 /* ResultadoPartidoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65765F4914B68B9F003D3CB2 /* ResultadoPartidoViewController.m */; };
+		658AD54E14B05DFB00384E73 /* PorrasTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 658AD54D14B05DFB00384E73 /* PorrasTableViewController.m */; };
+		658AD55D14B061ED00384E73 /* PorraCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 658AD55C14B061ED00384E73 /* PorraCustomCell.m */; };
+		658AD55F14B061FF00384E73 /* PorraCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 658AD55E14B061FF00384E73 /* PorraCustomCell.xib */; };
+		658AD6A514B073D300384E73 /* AthleticoMadrid.png in Resources */ = {isa = PBXBuildFile; fileRef = 658AD69114B073D300384E73 /* AthleticoMadrid.png */; };
+		658AD6A714B073D300384E73 /* Betis.png in Resources */ = {isa = PBXBuildFile; fileRef = 658AD69314B073D300384E73 /* Betis.png */; };
+		658AD6A814B073D300384E73 /* Espanyol.png in Resources */ = {isa = PBXBuildFile; fileRef = 658AD69414B073D300384E73 /* Espanyol.png */; };
+		658AD6A914B073D300384E73 /* FCBarcelona.png in Resources */ = {isa = PBXBuildFile; fileRef = 658AD69514B073D300384E73 /* FCBarcelona.png */; };
+		658AD6AA14B073D300384E73 /* Getafe.png in Resources */ = {isa = PBXBuildFile; fileRef = 658AD69614B073D300384E73 /* Getafe.png */; };
+		658AD6AB14B073D300384E73 /* Granada.png in Resources */ = {isa = PBXBuildFile; fileRef = 658AD69714B073D300384E73 /* Granada.png */; };
+		658AD6AC14B073D300384E73 /* Levante.png in Resources */ = {isa = PBXBuildFile; fileRef = 658AD69814B073D300384E73 /* Levante.png */; };
+		658AD6AD14B073D300384E73 /* Malaga.png in Resources */ = {isa = PBXBuildFile; fileRef = 658AD69914B073D300384E73 /* Malaga.png */; };
+		658AD6AE14B073D300384E73 /* Mallorca.png in Resources */ = {isa = PBXBuildFile; fileRef = 658AD69A14B073D300384E73 /* Mallorca.png */; };
+		658AD6AF14B073D300384E73 /* Osasuna.png in Resources */ = {isa = PBXBuildFile; fileRef = 658AD69B14B073D300384E73 /* Osasuna.png */; };
+		658AD6B014B073D300384E73 /* Racing.png in Resources */ = {isa = PBXBuildFile; fileRef = 658AD69C14B073D300384E73 /* Racing.png */; };
+		658AD6B114B073D300384E73 /* RayoVallecano.png in Resources */ = {isa = PBXBuildFile; fileRef = 658AD69D14B073D300384E73 /* RayoVallecano.png */; };
+		658AD6B214B073D300384E73 /* RealMadrid.png in Resources */ = {isa = PBXBuildFile; fileRef = 658AD69E14B073D300384E73 /* RealMadrid.png */; };
+		658AD6B314B073D300384E73 /* RealSociedad.png in Resources */ = {isa = PBXBuildFile; fileRef = 658AD69F14B073D300384E73 /* RealSociedad.png */; };
+		658AD6B414B073D300384E73 /* RealZaragoza.png in Resources */ = {isa = PBXBuildFile; fileRef = 658AD6A014B073D300384E73 /* RealZaragoza.png */; };
+		658AD6B514B073D300384E73 /* Sevilla.png in Resources */ = {isa = PBXBuildFile; fileRef = 658AD6A114B073D300384E73 /* Sevilla.png */; };
+		658AD6B614B073D300384E73 /* Sporting.png in Resources */ = {isa = PBXBuildFile; fileRef = 658AD6A214B073D300384E73 /* Sporting.png */; };
+		658AD6B714B073D300384E73 /* Valencia.png in Resources */ = {isa = PBXBuildFile; fileRef = 658AD6A314B073D300384E73 /* Valencia.png */; };
+		658AD6B814B073D300384E73 /* Villareal.png in Resources */ = {isa = PBXBuildFile; fileRef = 658AD6A414B073D300384E73 /* Villareal.png */; };
+		658AD6BA14B073F300384E73 /* Fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = 658AD6B914B073F300384E73 /* Fondo.png */; };
+		65941DCF14B63572009604C3 /* PorraCD.m in Sources */ = {isa = PBXBuildFile; fileRef = 65941DCC14B63572009604C3 /* PorraCD.m */; };
+		65941DD014B63572009604C3 /* PersonaCD.m in Sources */ = {isa = PBXBuildFile; fileRef = 65941DCE14B63572009604C3 /* PersonaCD.m */; };
+		65941EC914B64714009604C3 /* cesped_bajo_trafico.png in Resources */ = {isa = PBXBuildFile; fileRef = 65941EC814B64714009604C3 /* cesped_bajo_trafico.png */; };
+		65941F9A14B674A0009604C3 /* del.png in Resources */ = {isa = PBXBuildFile; fileRef = 65941F9914B674A0009604C3 /* del.png */; };
+		65A64E1014B0D3FF00FE3EAD /* Equipos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65A64E0F14B0D3FF00FE3EAD /* Equipos.plist */; };
+		65A64E3614B0DFAA00FE3EAD /* PorrasDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A64E3414B0DFAA00FE3EAD /* PorrasDetailViewController.m */; };
+		65A64E3714B0DFAA00FE3EAD /* PorrasDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65A64E3514B0DFAA00FE3EAD /* PorrasDetailViewController.xib */; };
+		65A64E5214B0E16200FE3EAD /* PorraDetailCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A64E5114B0E16200FE3EAD /* PorraDetailCustomCell.m */; };
+		65A64E5514B0E1B000FE3EAD /* PorraDetailCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65A64E5414B0E1B000FE3EAD /* PorraDetailCustomCell.xib */; };
+		65A64E6614B0E60300FE3EAD /* PorraDetail2CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A64E6514B0E60300FE3EAD /* PorraDetail2CustomCell.m */; };
+		65A64E6814B0E69200FE3EAD /* PorraDetail2CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65A64E6714B0E69200FE3EAD /* PorraDetail2CustomCell.xib */; };
+		65AA0ED514B36B590078C6D3 /* SimpleFormTeamsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AA0ED414B36B590078C6D3 /* SimpleFormTeamsViewController.m */; };
+		65B4AC3914B4987400E03C37 /* AthleticClubBilbao.png in Resources */ = {isa = PBXBuildFile; fileRef = 65B4AC3814B4987400E03C37 /* AthleticClubBilbao.png */; };
+		65C821CC14AE0C0F009B37AC /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C821CA14AE0C0F009B37AC /* AboutViewController.m */; };
+		65C821CD14AE0C0F009B37AC /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65C821CB14AE0C0F009B37AC /* AboutViewController.xib */; };
+		65C8226514AF6F03009B37AC /* PorrasNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C8226414AF6F03009B37AC /* PorrasNavController.m */; };
+		65C822A214AF7853009B37AC /* PorrasSegmentTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65C822A114AF7853009B37AC /* PorrasSegmentTableView.xib */; };
+		65F6503214B22C770094A773 /* PorraNewFormController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F6503014B22C770094A773 /* PorraNewFormController.m */; };
+		65F6507914B25E4B0094A773 /* PorraNewFormController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65F6507814B25E4B0094A773 /* PorraNewFormController.xib */; };
+		65F650DE14B268690094A773 /* SimpleFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F650DC14B268690094A773 /* SimpleFormViewController.m */; };
+		65F650DF14B268690094A773 /* SimpleFormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65F650DD14B268690094A773 /* SimpleFormViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* PorrasAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PorrasAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* PorrasAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PorrasAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Porras.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Porras.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C3AD890F43EF2300507BA6 /* Porras.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Porras.xcdatamodel; sourceTree = "<group>"; };
+		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Porras_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Porras_Prefix.pch; sourceTree = "<group>"; };
+		6502DB2814B51B6400F414D3 /* ParticipanteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticipanteViewController.h; sourceTree = "<group>"; };
+		6502DB2914B51B6400F414D3 /* ParticipanteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticipanteViewController.m; sourceTree = "<group>"; };
+		6502DB2A14B51B6400F414D3 /* ParticipanteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ParticipanteViewController.xib; path = Classes/ParticipanteViewController.xib; sourceTree = "<group>"; };
+		650F9A3214B375A800630C94 /* SimpleFormTeamsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleFormTeamsViewController.xib; sourceTree = "<group>"; };
+		65765F2914B68584003D3CB2 /* 85-trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "85-trophy.png"; sourceTree = "<group>"; };
+		65765F2C14B68618003D3CB2 /* 96-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "96-book.png"; sourceTree = "<group>"; };
+		65765F3414B68B23003D3CB2 /* ResultadoPartidoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultadoPartidoViewController.xib; sourceTree = "<group>"; };
+		65765F4814B68B9F003D3CB2 /* ResultadoPartidoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultadoPartidoViewController.h; sourceTree = "<group>"; };
+		65765F4914B68B9F003D3CB2 /* ResultadoPartidoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultadoPartidoViewController.m; sourceTree = "<group>"; };
+		658AD54C14B05DFB00384E73 /* PorrasTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PorrasTableViewController.h; sourceTree = "<group>"; };
+		658AD54D14B05DFB00384E73 /* PorrasTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PorrasTableViewController.m; sourceTree = "<group>"; };
+		658AD55B14B061ED00384E73 /* PorraCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PorraCustomCell.h; sourceTree = "<group>"; };
+		658AD55C14B061ED00384E73 /* PorraCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PorraCustomCell.m; sourceTree = "<group>"; };
+		658AD55E14B061FF00384E73 /* PorraCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PorraCustomCell.xib; sourceTree = "<group>"; };
+		658AD69114B073D300384E73 /* AthleticoMadrid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AthleticoMadrid.png; path = escudos/AthleticoMadrid.png; sourceTree = "<group>"; };
+		658AD69314B073D300384E73 /* Betis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Betis.png; path = escudos/Betis.png; sourceTree = "<group>"; };
+		658AD69414B073D300384E73 /* Espanyol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Espanyol.png; path = escudos/Espanyol.png; sourceTree = "<group>"; };
+		658AD69514B073D300384E73 /* FCBarcelona.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FCBarcelona.png; path = escudos/FCBarcelona.png; sourceTree = "<group>"; };
+		658AD69614B073D300384E73 /* Getafe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Getafe.png; path = escudos/Getafe.png; sourceTree = "<group>"; };
+		658AD69714B073D300384E73 /* Granada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Granada.png; path = escudos/Granada.png; sourceTree = "<group>"; };
+		658AD69814B073D300384E73 /* Levante.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Levante.png; path = escudos/Levante.png; sourceTree = "<group>"; };
+		658AD69914B073D300384E73 /* Malaga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Malaga.png; path = escudos/Malaga.png; sourceTree = "<group>"; };
+		658AD69A14B073D300384E73 /* Mallorca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Mallorca.png; path = escudos/Mallorca.png; sourceTree = "<group>"; };
+		658AD69B14B073D300384E73 /* Osasuna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Osasuna.png; path = escudos/Osasuna.png; sourceTree = "<group>"; };
+		658AD69C14B073D300384E73 /* Racing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Racing.png; path = escudos/Racing.png; sourceTree = "<group>"; };
+		658AD69D14B073D300384E73 /* RayoVallecano.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RayoVallecano.png; path = escudos/RayoVallecano.png; sourceTree = "<group>"; };
+		658AD69E14B073D300384E73 /* RealMadrid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RealMadrid.png; path = escudos/RealMadrid.png; sourceTree = "<group>"; };
+		658AD69F14B073D300384E73 /* RealSociedad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RealSociedad.png; path = escudos/RealSociedad.png; sourceTree = "<group>"; };
+		658AD6A014B073D300384E73 /* RealZaragoza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RealZaragoza.png; path = escudos/RealZaragoza.png; sourceTree = "<group>"; };
+		658AD6A114B073D300384E73 /* Sevilla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sevilla.png; path = escudos/Sevilla.png; sourceTree = "<group>"; };
+		658AD6A214B073D300384E73 /* Sporting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sporting.png; path = escudos/Sporting.png; sourceTree = "<group>"; };
+		658AD6A314B073D300384E73 /* Valencia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Valencia.png; path = escudos/Valencia.png; sourceTree = "<group>"; };
+		658AD6A414B073D300384E73 /* Villareal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Villareal.png; path = escudos/Villareal.png; sourceTree = "<group>"; };
+		658AD6B914B073F300384E73 /* Fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fondo.png; sourceTree = "<group>"; };
+		65941DCB14B63572009604C3 /* PorraCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PorraCD.h; path = ../PorraCD.h; sourceTree = "<group>"; };
+		65941DCC14B63572009604C3 /* PorraCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PorraCD.m; path = ../PorraCD.m; sourceTree = "<group>"; };
+		65941DCD14B63572009604C3 /* PersonaCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonaCD.h; path = ../PersonaCD.h; sourceTree = "<group>"; };
+		65941DCE14B63572009604C3 /* PersonaCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonaCD.m; path = ../PersonaCD.m; sourceTree = "<group>"; };
+		65941EC814B64714009604C3 /* cesped_bajo_trafico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cesped_bajo_trafico.png; sourceTree = "<group>"; };
+		65941F9914B674A0009604C3 /* del.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = del.png; sourceTree = "<group>"; };
+		65A64E0F14B0D3FF00FE3EAD /* Equipos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Equipos.plist; sourceTree = "<group>"; };
+		65A64E3314B0DFAA00FE3EAD /* PorrasDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PorrasDetailViewController.h; sourceTree = "<group>"; };
+		65A64E3414B0DFAA00FE3EAD /* PorrasDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PorrasDetailViewController.m; sourceTree = "<group>"; };
+		65A64E3514B0DFAA00FE3EAD /* PorrasDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PorrasDetailViewController.xib; path = Classes/PorrasDetailViewController.xib; sourceTree = "<group>"; };
+		65A64E5014B0E16200FE3EAD /* PorraDetailCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PorraDetailCustomCell.h; sourceTree = "<group>"; };
+		65A64E5114B0E16200FE3EAD /* PorraDetailCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PorraDetailCustomCell.m; sourceTree = "<group>"; };
+		65A64E5414B0E1B000FE3EAD /* PorraDetailCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PorraDetailCustomCell.xib; sourceTree = "<group>"; };
+		65A64E6414B0E60300FE3EAD /* PorraDetail2CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PorraDetail2CustomCell.h; sourceTree = "<group>"; };
+		65A64E6514B0E60300FE3EAD /* PorraDetail2CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PorraDetail2CustomCell.m; sourceTree = "<group>"; };
+		65A64E6714B0E69200FE3EAD /* PorraDetail2CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PorraDetail2CustomCell.xib; sourceTree = "<group>"; };
+		65AA0ED314B36B590078C6D3 /* SimpleFormTeamsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleFormTeamsViewController.h; sourceTree = "<group>"; };
+		65AA0ED414B36B590078C6D3 /* SimpleFormTeamsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleFormTeamsViewController.m; sourceTree = "<group>"; };
+		65B4AC3814B4987400E03C37 /* AthleticClubBilbao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AthleticClubBilbao.png; path = escudos/AthleticClubBilbao.png; sourceTree = "<group>"; };
+		65C821C914AE0C0F009B37AC /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		65C821CA14AE0C0F009B37AC /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		65C821CB14AE0C0F009B37AC /* AboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AboutViewController.xib; path = Classes/AboutViewController.xib; sourceTree = "<group>"; };
+		65C8226314AF6F03009B37AC /* PorrasNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PorrasNavController.h; sourceTree = "<group>"; };
+		65C8226414AF6F03009B37AC /* PorrasNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PorrasNavController.m; sourceTree = "<group>"; };
+		65C822A114AF7853009B37AC /* PorrasSegmentTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PorrasSegmentTableView.xib; sourceTree = "<group>"; };
+		65F6502F14B22C770094A773 /* PorraNewFormController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PorraNewFormController.h; sourceTree = "<group>"; };
+		65F6503014B22C770094A773 /* PorraNewFormController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PorraNewFormController.m; sourceTree = "<group>"; };
+		65F6507814B25E4B0094A773 /* PorraNewFormController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PorraNewFormController.xib; sourceTree = "<group>"; };
+		65F650DB14B268690094A773 /* SimpleFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleFormViewController.h; sourceTree = "<group>"; };
+		65F650DC14B268690094A773 /* SimpleFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleFormViewController.m; sourceTree = "<group>"; };
+		65F650DD14B268690094A773 /* SimpleFormViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SimpleFormViewController.xib; path = Classes/SimpleFormViewController.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Porras-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Porras-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				65555FED14B3C3D400D1BCBB /* Coredata */,
+				65A64E5314B0E16E00FE3EAD /* Custom Cells */,
+				1D3623240D0F684500981E51 /* PorrasAppDelegate.h */,
+				1D3623250D0F684500981E51 /* PorrasAppDelegate.m */,
+				65C821C914AE0C0F009B37AC /* AboutViewController.h */,
+				65C821CA14AE0C0F009B37AC /* AboutViewController.m */,
+				65C8226314AF6F03009B37AC /* PorrasNavController.h */,
+				65C8226414AF6F03009B37AC /* PorrasNavController.m */,
+				658AD54C14B05DFB00384E73 /* PorrasTableViewController.h */,
+				658AD54D14B05DFB00384E73 /* PorrasTableViewController.m */,
+				65A64E3314B0DFAA00FE3EAD /* PorrasDetailViewController.h */,
+				65A64E3414B0DFAA00FE3EAD /* PorrasDetailViewController.m */,
+				6502DB2814B51B6400F414D3 /* ParticipanteViewController.h */,
+				6502DB2914B51B6400F414D3 /* ParticipanteViewController.m */,
+				65765F4814B68B9F003D3CB2 /* ResultadoPartidoViewController.h */,
+				65765F4914B68B9F003D3CB2 /* ResultadoPartidoViewController.m */,
+				65F6502F14B22C770094A773 /* PorraNewFormController.h */,
+				65F6503014B22C770094A773 /* PorraNewFormController.m */,
+				65F650DB14B268690094A773 /* SimpleFormViewController.h */,
+				65F650DC14B268690094A773 /* SimpleFormViewController.m */,
+				65AA0ED314B36B590078C6D3 /* SimpleFormTeamsViewController.h */,
+				65AA0ED414B36B590078C6D3 /* SimpleFormTeamsViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Porras.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				658AD68B14B0735E00384E73 /* Images */,
+				658AD68514B072F600384E73 /* Images Escudos */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Porras_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				65A64E5614B0E1BA00FE3EAD /* Custom Cell Xibs */,
+				65F650DD14B268690094A773 /* SimpleFormViewController.xib */,
+				6502DB2A14B51B6400F414D3 /* ParticipanteViewController.xib */,
+				65765F3414B68B23003D3CB2 /* ResultadoPartidoViewController.xib */,
+				650F9A3214B375A800630C94 /* SimpleFormTeamsViewController.xib */,
+				65C821CB14AE0C0F009B37AC /* AboutViewController.xib */,
+				65F6507814B25E4B0094A773 /* PorraNewFormController.xib */,
+				65A64E0F14B0D3FF00FE3EAD /* Equipos.plist */,
+				2819305F112F816700ECF9B4 /* Porras.xcdatamodeld */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Porras-Info.plist */,
+				65C822A114AF7853009B37AC /* PorrasSegmentTableView.xib */,
+				65A64E3514B0DFAA00FE3EAD /* PorrasDetailViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				28D801B30F44B63D00FB423F /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65555FED14B3C3D400D1BCBB /* Coredata */ = {
+			isa = PBXGroup;
+			children = (
+				65941DCB14B63572009604C3 /* PorraCD.h */,
+				65941DCC14B63572009604C3 /* PorraCD.m */,
+				65941DCD14B63572009604C3 /* PersonaCD.h */,
+				65941DCE14B63572009604C3 /* PersonaCD.m */,
+			);
+			name = Coredata;
+			sourceTree = "<group>";
+		};
+		658AD68514B072F600384E73 /* Images Escudos */ = {
+			isa = PBXGroup;
+			children = (
+				65B4AC3814B4987400E03C37 /* AthleticClubBilbao.png */,
+				658AD69114B073D300384E73 /* AthleticoMadrid.png */,
+				658AD69314B073D300384E73 /* Betis.png */,
+				658AD69414B073D300384E73 /* Espanyol.png */,
+				658AD69514B073D300384E73 /* FCBarcelona.png */,
+				658AD69614B073D300384E73 /* Getafe.png */,
+				658AD69714B073D300384E73 /* Granada.png */,
+				658AD69814B073D300384E73 /* Levante.png */,
+				658AD69914B073D300384E73 /* Malaga.png */,
+				658AD69A14B073D300384E73 /* Mallorca.png */,
+				658AD69B14B073D300384E73 /* Osasuna.png */,
+				658AD69C14B073D300384E73 /* Racing.png */,
+				658AD69D14B073D300384E73 /* RayoVallecano.png */,
+				658AD69E14B073D300384E73 /* RealMadrid.png */,
+				658AD69F14B073D300384E73 /* RealSociedad.png */,
+				658AD6A014B073D300384E73 /* RealZaragoza.png */,
+				658AD6A114B073D300384E73 /* Sevilla.png */,
+				658AD6A214B073D300384E73 /* Sporting.png */,
+				658AD6A314B073D300384E73 /* Valencia.png */,
+				658AD6A414B073D300384E73 /* Villareal.png */,
+			);
+			name = "Images Escudos";
+			sourceTree = "<group>";
+		};
+		658AD68B14B0735E00384E73 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				65765F2C14B68618003D3CB2 /* 96-book.png */,
+				65765F2914B68584003D3CB2 /* 85-trophy.png */,
+				65941F9914B674A0009604C3 /* del.png */,
+				65941EC814B64714009604C3 /* cesped_bajo_trafico.png */,
+				658AD6B914B073F300384E73 /* Fondo.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		65A64E5314B0E16E00FE3EAD /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				65A64E5014B0E16200FE3EAD /* PorraDetailCustomCell.h */,
+				65A64E5114B0E16200FE3EAD /* PorraDetailCustomCell.m */,
+				65A64E6414B0E60300FE3EAD /* PorraDetail2CustomCell.h */,
+				65A64E6514B0E60300FE3EAD /* PorraDetail2CustomCell.m */,
+				658AD55B14B061ED00384E73 /* PorraCustomCell.h */,
+				658AD55C14B061ED00384E73 /* PorraCustomCell.m */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		65A64E5614B0E1BA00FE3EAD /* Custom Cell Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				658AD55E14B061FF00384E73 /* PorraCustomCell.xib */,
+				65A64E5414B0E1B000FE3EAD /* PorraDetailCustomCell.xib */,
+				65A64E6714B0E69200FE3EAD /* PorraDetail2CustomCell.xib */,
+			);
+			name = "Custom Cell Xibs";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Porras */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Porras" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Porras;
+			productName = Porras;
+			productReference = 1D6058910D05DD3D006BFB54 /* Porras.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Porras" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Porras */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				65C821CD14AE0C0F009B37AC /* AboutViewController.xib in Resources */,
+				65C822A214AF7853009B37AC /* PorrasSegmentTableView.xib in Resources */,
+				658AD55F14B061FF00384E73 /* PorraCustomCell.xib in Resources */,
+				658AD6A514B073D300384E73 /* AthleticoMadrid.png in Resources */,
+				658AD6A714B073D300384E73 /* Betis.png in Resources */,
+				658AD6A814B073D300384E73 /* Espanyol.png in Resources */,
+				658AD6A914B073D300384E73 /* FCBarcelona.png in Resources */,
+				658AD6AA14B073D300384E73 /* Getafe.png in Resources */,
+				658AD6AB14B073D300384E73 /* Granada.png in Resources */,
+				658AD6AC14B073D300384E73 /* Levante.png in Resources */,
+				658AD6AD14B073D300384E73 /* Malaga.png in Resources */,
+				658AD6AE14B073D300384E73 /* Mallorca.png in Resources */,
+				658AD6AF14B073D300384E73 /* Osasuna.png in Resources */,
+				658AD6B014B073D300384E73 /* Racing.png in Resources */,
+				658AD6B114B073D300384E73 /* RayoVallecano.png in Resources */,
+				658AD6B214B073D300384E73 /* RealMadrid.png in Resources */,
+				658AD6B314B073D300384E73 /* RealSociedad.png in Resources */,
+				658AD6B414B073D300384E73 /* RealZaragoza.png in Resources */,
+				658AD6B514B073D300384E73 /* Sevilla.png in Resources */,
+				658AD6B614B073D300384E73 /* Sporting.png in Resources */,
+				658AD6B714B073D300384E73 /* Valencia.png in Resources */,
+				658AD6B814B073D300384E73 /* Villareal.png in Resources */,
+				658AD6BA14B073F300384E73 /* Fondo.png in Resources */,
+				65A64E1014B0D3FF00FE3EAD /* Equipos.plist in Resources */,
+				65A64E3714B0DFAA00FE3EAD /* PorrasDetailViewController.xib in Resources */,
+				65A64E5514B0E1B000FE3EAD /* PorraDetailCustomCell.xib in Resources */,
+				65A64E6814B0E69200FE3EAD /* PorraDetail2CustomCell.xib in Resources */,
+				65F6507914B25E4B0094A773 /* PorraNewFormController.xib in Resources */,
+				65F650DF14B268690094A773 /* SimpleFormViewController.xib in Resources */,
+				650F9A3314B375A800630C94 /* SimpleFormTeamsViewController.xib in Resources */,
+				65B4AC3914B4987400E03C37 /* AthleticClubBilbao.png in Resources */,
+				6502DB2C14B51B6400F414D3 /* ParticipanteViewController.xib in Resources */,
+				65941EC914B64714009604C3 /* cesped_bajo_trafico.png in Resources */,
+				65941F9A14B674A0009604C3 /* del.png in Resources */,
+				65765F2A14B68584003D3CB2 /* 85-trophy.png in Resources */,
+				65765F2D14B68618003D3CB2 /* 96-book.png in Resources */,
+				65765F3514B68B23003D3CB2 /* ResultadoPartidoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* PorrasAppDelegate.m in Sources */,
+				28193060112F816700ECF9B4 /* Porras.xcdatamodeld in Sources */,
+				65C821CC14AE0C0F009B37AC /* AboutViewController.m in Sources */,
+				65C8226514AF6F03009B37AC /* PorrasNavController.m in Sources */,
+				658AD54E14B05DFB00384E73 /* PorrasTableViewController.m in Sources */,
+				658AD55D14B061ED00384E73 /* PorraCustomCell.m in Sources */,
+				65A64E3614B0DFAA00FE3EAD /* PorrasDetailViewController.m in Sources */,
+				65A64E5214B0E16200FE3EAD /* PorraDetailCustomCell.m in Sources */,
+				65A64E6614B0E60300FE3EAD /* PorraDetail2CustomCell.m in Sources */,
+				65F6503214B22C770094A773 /* PorraNewFormController.m in Sources */,
+				65F650DE14B268690094A773 /* SimpleFormViewController.m in Sources */,
+				65AA0ED514B36B590078C6D3 /* SimpleFormTeamsViewController.m in Sources */,
+				6502DB2B14B51B6400F414D3 /* ParticipanteViewController.m in Sources */,
+				65941DCF14B63572009604C3 /* PorraCD.m in Sources */,
+				65941DD014B63572009604C3 /* PersonaCD.m in Sources */,
+				65765F4A14B68B9F003D3CB2 /* ResultadoPartidoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Porras_Prefix.pch;
+				INFOPLIST_FILE = "Porras-Info.plist";
+				PRODUCT_NAME = Porras;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Porras_Prefix.pch;
+				INFOPLIST_FILE = "Porras-Info.plist";
+				PRODUCT_NAME = Porras;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Porras" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Porras" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2819305F112F816700ECF9B4 /* Porras.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28C3AD890F43EF2300507BA6 /* Porras.xcdatamodel */,
+			);
+			currentVersion = 28C3AD890F43EF2300507BA6 /* Porras.xcdatamodel */;
+			path = Porras.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
